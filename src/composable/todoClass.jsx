@@ -17,7 +17,8 @@ class Todo {
     }
 
     setdoneStatus (){
-        this.doneStatus = true  
+        this.doneStatus = !this.doneStatus  
+        return this
     }
 }
 
